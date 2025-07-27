@@ -16,7 +16,7 @@ class HomeSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 600,
+      height: 400,
       color: AppColors.background,
       child: Center(
         child: Column(

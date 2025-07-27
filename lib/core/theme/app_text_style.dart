@@ -10,7 +10,20 @@ class AppTextStyles {
 
   static const TextStyle heading2 = TextStyle(
     fontSize: 24,
-    fontWeight: FontWeight.w400, // Um peso mais leve
+    fontWeight: FontWeight.w400,
+    color: AppColors.text,
+  );
+
+  static const TextStyle title = TextStyle(
+    fontSize: 28,
+    fontWeight: FontWeight.bold,
+    color: AppColors.text,
+  );
+
+  static const TextStyle body = TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.w400,
+    height: 1.5,
     color: AppColors.text,
   );
 
